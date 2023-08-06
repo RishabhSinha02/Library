@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #ffc107;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #ff5722;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+form {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff6f42;
+}
+
+video, audio {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Additional Colorful Styles */
+h1 {
+    color: #ff5722;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+footer p {
+    color: #fff;
+}
+
+table {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    background-color: #fff;
+}
+
+input[type="text"],
+textarea {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea:focus,
+input[type="text"]:focus {
+    border: 1px solid #ff5722;
+    outline: none;
+}
+
+video, audio {
+    border: 2px solid #ff5722;
+}
